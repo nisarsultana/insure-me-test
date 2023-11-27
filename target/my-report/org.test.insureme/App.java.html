@@ -31,7 +31,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 <span class="nc" id="L31">    WebDriverManager.chromedriver().setup();</span>
     //setting properties
 <span class="nc" id="L33">    ChromeOptions chromeOptions = new ChromeOptions();</span>
-    //chromeOptions.addArguments(&quot;--headless&quot;);
+<span class="nc" id="L34">    chromeOptions.addArguments(&quot;--headless&quot;);</span>
     // open url
 <span class="nc" id="L36">    System.out.println(&quot;Driver opening up the url in browser&quot;);	</span>
 <span class="nc" id="L37">    WebDriver driver = new ChromeDriver(chromeOptions);</span>
